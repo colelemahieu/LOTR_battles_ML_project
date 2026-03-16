@@ -393,7 +393,7 @@ model, encoders, feature_cols, model_acc = load_and_train(CSV_PATH)
 
 st.markdown("""
 <div class="title-block">
-    <h1>⚔ LOTR Battle Predictor</h1>
+    <h1>LOTR Battle Predictor</h1>
     <div class="subtitle">Foretell the fate of Middle-earth's warriors</div>
 </div>
 """, unsafe_allow_html=True)
