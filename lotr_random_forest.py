@@ -179,7 +179,7 @@ def predict_battle(
 # 6.  MAIN
 # ─────────────────────────────────────────────
 if __name__ == "__main__":
-    CSV_PATH = "lotr_battles_300.csv"
+    CSV_PATH = "lotr_battles_1000.csv"
 
     df = load_data(CSV_PATH)
     X, y, encoders, feature_cols = engineer_features(df)
